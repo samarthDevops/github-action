@@ -13,5 +13,5 @@ jobs:
         steps:
             - name: show os
               run: 
-                echo "this job is running on windows os"
-                echo " runners os $RUNNER_OS"
+                echo "this job is running windows runner"
+                echo "Running OS: $RUNNER_OS"
